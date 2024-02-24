@@ -1,0 +1,55 @@
+name: AthleteHolder
+version: 'v1.2.1'
+main: fantuan.two.thth.athletedetector.athleteholder.AthleteHolder
+api-version: 1.20
+authors: [ fantuan_233 ]
+description: See athlete
+
+commands:
+
+  ahwhitelist:
+    aliases:
+      - "awl"
+      - "ahwl"
+
+    description: to add/remove whitelist
+
+
+  ahdeteclist:
+    aliases:
+      - "adl"
+      - "ahdl"
+
+    description: to add/remove ops from listning
+
+  aheditor:
+    aliases:
+      - 'ahe'
+      - 'ahed'
+    description: open an editor
+
+  ahon:
+    description: turn... on
+
+  ahoff:
+    description: turn... off
+
+
+  ahswitch:
+    aliases:
+      - "ahs"
+      - "ahd"
+    description: turn on/off the switch
+
+
+  ahchecklist:
+    aliases:
+      - "ahcl"
+    description: check the list
+
+
+
+permissions:
+  athleteholder.admin:
+    default: op
+    description: all the permissions

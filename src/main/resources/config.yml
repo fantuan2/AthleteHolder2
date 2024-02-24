@@ -1,0 +1,11 @@
+PlayerPlace: true
+PlayerDestroy: true
+PlayerPress: true
+PlayerDraw: true
+PlayerStep: true
+PlayerShoot: true
+PlayerUseCommand: true
+PlayerAttack: true
+PlayerThrow: true
+PlayerPick: true
+
